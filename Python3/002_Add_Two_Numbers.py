@@ -55,6 +55,11 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    list = ListNode(9)
-    list.next = ListNode(8)
-    print(Solution().addTwoNumbers(list, ListNode(1)).myPrint())
+    list = ListNode(2)
+    list.next = ListNode(4)
+    list.next.next = ListNode(3)
+    list1= ListNode(5)
+    list1.next = ListNode(6)
+    list1.next.next = ListNode(4)
+
+    print(Solution().addTwoNumbers(list, list1).myPrint())
