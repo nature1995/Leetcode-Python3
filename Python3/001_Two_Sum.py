@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!usr/bin/env python3
 # -*- coding:utf-8 -*-
 '''
 Given an array of integers, find two numbers such that they add up to a specific target number.

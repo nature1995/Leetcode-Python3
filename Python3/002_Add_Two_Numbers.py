@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!usr/bin/env python3
 # -*- coding:utf-8 -*-
 '''
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
