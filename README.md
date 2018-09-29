@@ -11,7 +11,7 @@ All the problems on [LeetCode](https://leetcode.com).
 
 ## Update
 
-I have update [gavinfish](https://github.com/gavinfish) code and make the code more correctly.
+I have update [gavinfish's](https://github.com/gavinfish) code and make the code more correctly.
 
 ## License
 
