@@ -24,5 +24,6 @@ class Solution(object):
             matrix[i].reverse()
         return matrix
 
+
 if __name__ == "__main__":
     assert Solution().rotate([[1, 2, 3], [8, 9, 4], [7, 6, 5]]) == [[7, 8, 1], [6, 9, 2], [5, 4, 3]]
