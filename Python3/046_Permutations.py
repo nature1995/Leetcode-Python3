@@ -19,14 +19,15 @@ class Solution(object):
         self.get_permute([], nums, result)
         return result
 
-    def get_permute(self, current, num, result):
-        if not num:
+    def get_permute(self, current, nums, result):
+        if not nums:
             result.append(current + [])
             return
-        for i, v in enumerate(num):
-            current.append(num[i])
-            self.get_permute(current, num[:i] + num[i + 1:], result)
-            current.pop()
+        else:
+            for i, v in enumerate(nums):
+                current.append(nums[i])
+                self.get_permute(current, nums[:i] + nums[i + 1:], result)
+                current.pop()
 
 
 if __name__ == "__main__":
